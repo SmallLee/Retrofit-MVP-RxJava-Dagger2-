@@ -2,10 +2,10 @@ package com.example.hecun.rxproject.di.component;
 
 import android.content.Context;
 
-import com.example.hecun.rxproject.DemoActivity;
 import com.example.hecun.rxproject.di.module.ActivityModule;
 import com.example.hecun.rxproject.di.scope.ActivityScope;
 import com.example.hecun.rxproject.di.scope.ContextLife;
+import com.example.hecun.rxproject.mvp.view.activity.DemoActivity;
 
 import dagger.Component;
 

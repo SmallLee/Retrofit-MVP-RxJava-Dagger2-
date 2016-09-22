@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.hecun.rxproject.SchedulersActivity">
+    tools:context=".mvp.view.activity.SchedulersActivity">
     <EditText
         android:id="@+id/et_content"
         android:layout_width="match_parent"

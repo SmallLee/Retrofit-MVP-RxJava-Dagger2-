@@ -11,13 +11,11 @@ import com.example.hecun.rxproject.di.module.ActivityModule;
 public abstract class BaseActivity extends AppCompatActivity {
 
     public ActivityComponent mActivityComponent;
-    public EmptyView mEmptyView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(getContentViewID());
-        mEmptyView = new EmptyView(this,getContentViewID());
         mActivityComponent = DaggerActivityComponent.builder()
                 .activityModule(new ActivityModule(this))
                 .applicationComponent(((DemoApplication) getApplication()).getApplicationComponent())

@@ -4,41 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.hecun.rxproject.MainActivity">
+    tools:context=".mvp.view.activity.MainActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="requestData"
+        android:text="请求电影信息"
+        />
     <TextView
         android:id="@+id/textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="single"
-        android:text="Single的用法"
-        />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="subject"
-        android:text="Subject的用法"
-        />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="Schedulers"
-        android:text="Schedulers的用法"
-        />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="Demo"
-        android:text="启动Demo页面"
-        />
-    <Button
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="展示EmptyView用法"
-    android:onClick="emptyView"
-    />
+
 
 </LinearLayout>

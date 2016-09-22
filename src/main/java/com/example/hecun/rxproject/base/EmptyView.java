@@ -17,7 +17,7 @@ import java.util.Arrays;
 import java.util.Locale;
 
 /**
- * Created by Administrator on 2016/8/20.
+ * Created by lixoaniu on 2016/9/21.
  */
 public class EmptyView {
 
